@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2><U>Recipes</u></h2>
+  <p><I>Christmas</I></p>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Cake</b></h1>
+      <p><span style="font-size:36px"></span>The easiest cake to make for your guests this festive season</p>
+     
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\cake.html"> <button class="button">go to recipe</button></a>
+    </div>
+    <div class="column-33">
+        <img src="C:\Users\susanrose\Desktop\neethus kitchen\cake.jpg" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="C:\Users\susanrose\Desktop\neethus kitchen\cookies.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h2 class="large-font" style="color:brown;"><b>cookies</b></h2>
+    
+      <p><span style="font-size:24px">Taste the cunchiness to go with tea in this cold weather</span> </p><a href="C:\Users\susanrose\Desktop\neethus kitchen\cookies.html"> 
+      <button class="button" style="background-color:green">Read More</button></a>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Truffles</b></h1>
+      <p><span style="font-size:36px">A new variety</span>Make something chocolaty other than the cake</p>
+     <a href="C:\Users\susanrose\Desktop\neethus kitchen\truffles.html">  <button class="button">Go to recipe</button></a>
+    </div>
+    <div class="column-33">
+        <img src="C:\Users\susanrose\Desktop\neethus kitchen\truffles.jpg" width="560" height="315" >
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

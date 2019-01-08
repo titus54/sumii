@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  border-box: box-sizing;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+h3{
+text-align:center;}
+p{
+text-indent:60px;
+text-align:center;}
+img{
+padding:100px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><i>Cindrella's Beauty Parlor</i></h1>
+  <p><i>Magic hands to transfer the beauty within you.</i></p>
+      <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Expand</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="About.html">NAIL</a>
+    <a href="packs.html">PACKS</a>
+    <a href="Hair.html">Hair</a>
+    <a href="nail.html">Nail</a>
+    <a href="Bridal.html">Bridal</a>
+    <a href="Services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+  </div>
+</div>
+</div>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<h3>OUR PHILOSOPHY</font></h3>
+<p><i>At the Beauty Parlour, we believe in beauty with a conscience.<br> We have created a salon that offers the highest quality hair services in a setting that is healthier for the environment, our guests and our staff. <br>The Beauty Parlour is designed and built primarily with recycled materials: the floor is made of reclaimed wood from a local grain elevator <br>--preserving and showcasing its natural texture --and most of the fixtures and furniture are refurbished or original vintage pieces.<br></i></p><br>
+
+<p><i>We carry high quality professional hair products designed to ensure our guests look their best, both in the salon and at home.<br> The hair care products we carry have been carefully chosen based both on performance and eco-sensitivity.<br> As a clean air salon, we offer ammonia-free colour services with little to no scent properties or chemical emanation.<br> This healthier alternative to traditional colouring practices is also safe for expectant mothers and individuals with allergies or scent sensitivities.</i></p><br>
+
+<p><i>Our design and philosophy work hand in hand. We are committed to providing healthy hair care with a low impact on the environment. <br>Come see what you and your hair can do for the Earth.<br><br><br></i></p>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+img{
+width:125%;}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Beauty-salon-1.jpg" >
+     <a href="Services.html"> <h3>Services</h3></a>
+      <p>We offer a full range of salon treatments 
+and styling services provided by a team of professional stylists, 
+all in a clean air environment.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+
+    <img src="pca-skin-care.jpg" >
+     <a href="product.html"> <h3>Products</h3></a>
+      <p>From cost-effective, recyclable packaging to naturally harvested ingredients, we are proud to provide our guests with the most health-conscious choices in professional hair care products.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Barber_Parlour_202.jpg" >
+    <a href="gallery.html">  <h3>Gallery</h3></a>
+      <p>See our talented team's handiwork and hair inspiration in our unique photo gallery.</p>
+    </div>
+  </div>
+  
+ 
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   
+padding: 20px;
+  text-align: center;
+  background:#1abc9c ;
+}
+</style>
+</head>
+<body>
+
+<div class="footer">
+  <p><br>Contact Us
+  <br>Ph no:+91 8884294364<br>
+  Email:cindrella@gmail.com
+  <br>Address:Hennur road,Bangalore,Karnataka-560038</p>
+</div>
+
+</body>
+</html>

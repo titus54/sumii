@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3><i>Cindrella's Beauty Parlor</i></h3>
+  <p><i>Magic hands to transfer the beauty within you.</i></p>
+</div>
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Recipes {
+  float: left;
+  overflow: hidden;
+}
+
+.Holidays {
+  float: left;
+  overflow: hidden;
+}
+
+.Recipes .recbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:  inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.Holidays .holibtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .Recipes:hover .recbtn,.Holidays:hover .holibtn, .recbtn:focus, .holibtn:focus {
+  background-color: red;
+}
+
+.Recipes-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.Holidays-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Recipes-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.Holidays-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Recipes-content a:hover {
+  background-color: #ddd;
+}
+.Holidays-content a:hover {
+  background-color: #ddd;
+}
+
+.Recipes:hover .Recipes-content {
+  display: block;
+}
+.Holidays:hover .Holidays-content {
+  display: block;
+}
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+   <a href="#home">Home</a>
+    <div class="Packs">
+    <button class="recbtn">Packs
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="Recipes-content">
+      <a href="C:/Users/susanrose/Desktop/neethus kitchen/breakfast.html">Golden</a>
+      <a href="#">Diamond</a>
+      <a href="#">Fruit</a></div>
+     </div>
+   <div class="Holidays">
+    <button class="holibtn">Holidays
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="Holidays-content">
+      <a href="#">New Year</a>
+      <a href="#">Easter</a>
+      <a href="#">Christmas</a>
+  </div>
+</div>
+ <div class="topnav">
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+</div>
+</div>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\Webp.net-resizeimage.jpg" style="width:100%">
+  <div class="text">Sweet(kaju katli)</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\paneer.jpg" style="width:100%">
+  <div class="text">Vegitarian(Paneer)</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\chicken.jpg" style="width:100%">
+  <div class="text">Non-Vegitarian(Chicken kuroma)</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<body>
+
+<h2>Recipes</h2>
+
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\chicken marsala.html">
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\chicken marsala.jpg" style="width:250px;height:250px;border-radius:48%;">
+</a>
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\cheesecake.html">
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\strawberry.jpg"style="width:250px;height:250px;border-radius:48%;">
+</a>
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\paneer butter masala.html">
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\breakfast\paneerbuttermasala.jpg" style="width:230px;height:230px;border-radius:48%;">
+</a>
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\gobi manchurian.html">
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\breakfast\Gobi_Manchurian-3.jpg" style="width:230px;height:230px;border-radius:48%;">
+</a>
+<a href="C:\Users\susanrose\Desktop\neethus kitchen\Pancakes.html">
+  <img src="C:\Users\susanrose\Desktop\New folder (5)\breakfast\pancakes.jpg" style="width:230px;height:230px;border-radius:48%;">
+</a>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   
+padding: 20px;
+  text-align: center;
+  background:#1abc9c ;
+}
+</style>
+</head>
+<body>
+
+<div class="footer">
+  <p><br>Contact Us
+  <br>Ph no:+7090811854<br>
+  Email:Neethu's_Kitchen@gmail.com
+  <br>Address:Kacharakanahalli,Hennur road,Bangalore,Karnataka-560038</p>
+</div>
+
+
+</body>
+
+</html>

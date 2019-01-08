@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+</style>
+</head>
+<body>
+
+
+
+<table>
+  <tr>
+    <th>LADIES HAIRCUTS</th>
+    <th> </th>
+    
+    <th> </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+    <th>TREATMENT / BLOWOUT</th>
+    <th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+    
+  </tr>
+  <tr>
+    <td>
+
+Intermediate (Kaley )<br>
+
+Senior (Alysha, Nina, Dean+Kirsten)<br>
+
+Hair by Des<br>
+
+</td><td></td>
+    <td> Griffin</td>
+  </tr>
+  <tr>
+    <td><b>MENS HAIRCUTS<b></td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+</body>
+</html>
